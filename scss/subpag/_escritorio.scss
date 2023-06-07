@@ -1,0 +1,179 @@
+//pagina principal o inicio
+
+//importar los archivos secundarios de sass
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+/*pagina principal/inicio*/
+
+//Imagen de inicio
+.fondo-inicio div img{  
+padding: 1rem;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+//Tamaño de la letra de las opioniones
+.p-tamaño{
+    margin: 1rem;
+}
+
+
+//Imagenes de chefs
+.img-edit{
+    display: $f;
+    border-radius: 100%;
+    @include a-a(150px, 150px);
+    float: left;
+    margin: 1.1rem;
+} 
+//Tamaño de la letra de las opioniones
+.p-tamaño{
+    @include t-p(1.1rem);
+}
+//Colummnas opinion
+.contenedor{
+    display: $f;
+    @include m-p (1rem, 1rem);
+    gap: 1rem;
+}
+.contenedor-2{
+    display: $f;
+    @include m-p (1rem, 1rem);
+    gap: 1rem;
+}
+//subtitulo de opinion
+
+.sub-title{
+    margin-left: 1.1rem;
+}
+
+//Vertical opinion grid
+.V-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.V-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+// pie de pagina
+
+footer{
+    text-align: center;
+}
+
+//Segunda pagina galeria de platillos
+
+
+/*Segunda pagina galeria de platillos*/ 
+
+//sub titulo
+.sub-galeria{
+    margin: 0.8rem;
+}
+//Imagenes flex
+
+.flex-galeria{
+    display: $f;
+    @include m-p(1rem, 0.3rem);
+}
+//tamaño de imagenes
+.img-galeria{
+    @include a-a(100%, 400px);
+}
+.img-galerias{
+    @include a-a(100%, 400px);
+}
+//grid imagenes
+
+.grid-galeria{
+    display: $g;
+    padding: 1rem;
+    column-gap: 1rem;
+}
+
+//grid parrafos
+
+.p-grids{
+    @include t-p(1.1rem);
+    margin: 1.1rem;
+}
+.p-grid{
+    @include t-p(1.1rem);
+    margin: 1.1rem;
+}
+
+/*Tercera pagina nosotros*/
+
+//andy guzman
+
+.h2-nosotros{
+    @include t-p(2rem);
+    margin: 1rem;
+}
+// imagen de gaston 
+.img-nosotros{
+    padding: 1rem;
+    @include a-a(100%, 100%);
+    object-fit: cover
+}
+
+//Peru-Lima
+
+.sub-nosotros{
+    margin: 1rem;
+    @include t-p(2rem);
+}
+
+//frase 
+.p-nosotros{
+    @include m-p(1rem, 0.3rem);   
+    text-align: center;
+    @include t-p(1.1rem);
+}
+
+/*Cuarta pagina comentarios*/
+
+//frase
+
+.h2-comentarios{
+    text-align: center;
+    @include m-p(0.5rem, 0.5);
+    @include t-p(2.9);
+}
+
+//formulario 
+
+//subitulo
+
+.h3-comentarios{
+    @include m-p (0.5rem, 0.5rem);
+    @include t-p(1.7rem);
+}
+
+//formulario 
+
+.formulario-comentarios{
+    @include t-i (center, center);
+    @include m-p (0.5rem, 0.5rem);
+}
+.comentarios-opinion{
+    @include t-i (center, center);
+    @include m-p (0.5rem, 0.5rem);
+}
+.formulario2-comentario{
+    @include t-i (center, center);
+    margin-bottom: 1rem;
+}
+
+//tercera pagina 
+
+/*Postres y dulces, tercera pagina */
+
+
+
+

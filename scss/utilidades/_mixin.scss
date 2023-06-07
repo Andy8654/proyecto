@@ -1,0 +1,35 @@
+//Reutilizar codigo
+
+// padding y margin
+
+@mixin m-p($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
+
+// ancho y alto 
+
+@mixin a-a($ancho, $altura){
+    width: $ancho;
+    height: $altura;
+}
+
+//Columnas y filas  
+
+@mixin c-f($columnas, $filas){
+    grid-template-columns: $columnas;
+    grid-template-rows: $filas;
+}
+
+//tamaño de parrafos 
+
+@mixin t-p($tamaño){
+    font-size: $tamaño;
+}
+
+// aliniar al centro texto y items
+
+@mixin t-i($texto, $items){
+    text-align: $texto;
+    align-items: $items;
+}

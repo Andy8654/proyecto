@@ -1,0 +1,18 @@
+//Styles de scss
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//import
+//sitio web de computadora/desktop
+@import "subpag/escritorio";
+//sitio web de celular
+@import "subpag/celular";
+//sitio web de tablet
+@import "subpag/tablet";
+

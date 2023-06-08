@@ -7,7 +7,7 @@
 
 /*pagina principal/inicio*/
 .fondo-inicio div img {
-  padding: 1rem;
+  padding: 3rem;
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -90,7 +90,7 @@ footer {
   margin: 1rem; }
 
 .img-nosotros {
-  padding: 1rem;
+  padding: 3rem;
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -144,7 +144,7 @@ footer {
   margin: 1rem; }
 
 .img-picaron {
-  padding: 1rem;
+  padding: 3rem;
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -177,7 +177,7 @@ footer {
   padding: 1rem; }
 
 .img-responsive {
-  padding: 1rem;
+  padding: 3rem;
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -191,7 +191,7 @@ footer {
   padding: 1rem; }
 
 .img-bebidas {
-  padding: 1rem;
+  padding: 3rem;
   width: 100%;
   height: 100%;
   object-fit: cover; }

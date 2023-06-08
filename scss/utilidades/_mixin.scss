@@ -59,3 +59,8 @@
 }
 
 
+@mixin columna-celular ($column, $fila){
+    grid-template-columns: $column ;
+    grid-template-rows: $fila;
+}
+

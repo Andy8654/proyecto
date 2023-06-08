@@ -7,12 +7,11 @@
 /*Punto peruano media queries CELULAR*/
 @media (max-width: 600px) {
     .V-1{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        @include columna-celular(1fr, 1fr);
     }
+        
     .V-2{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        @include columna-celular(1fr, 1fr);
     }
     .img-edit{
         border-radius: 100%;
@@ -20,4 +19,117 @@
         float: left;
         margin: 1.1rem;
     }
+    .p-tamaño{
+        font-size: 0.6rem;
+    }
   }
+//Segunda pagina galeria de platillos
+
+/* MQ de pagina galeria de platillos*/
+
+@media screen and (max-width:600px){
+    .grid-galeria{
+        @include columna-celular(1fr, 1fr);
+        align-items: center;
+    }
+    .p-grid{
+        padding: 0.5rem;
+    }
+    .p-grids{
+        padding: 0.5rem;
+    }
+    //fotter
+    footer{
+        padding: 1rem;
+    }
+}
+
+//Tercera pagina nosotros
+/* MQ de pagina Nosotros*/ 
+
+@media screen and (max-width:600px){
+    .p-nosotros{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .sub-nosotros{
+        @include t-p(1.5rem);
+    }
+    .h2-nosotros{
+        @include t-p (1.8rem);
+    }
+    .formulario2-comentario{
+        @include m-p(1rem, 1rem);
+        align-items: center;
+    }
+    .h3-comentarios{
+        @include m-p (0.5rem, 0.5rem);
+        @include t-p(1.1rem);
+    }
+    .h2-comentarios{
+        @include t-a(center);
+        @include m-p(0.5rem, 0.5);
+        @include t-p(1.5rem);
+    }    
+}
+
+//cuarta pagina postres y dulces
+
+/*MQ de postres y dulces*/
+@media screen and (max-width:600px){
+    .c-postre{
+        @include columna-celular(1fr, 1fr);
+        @include t-p(0.9rem);
+    }
+    .conejos-mq{
+        @include columna-celular(1fr, 1fr);
+        @include t-p(0.9rem);
+    }
+}
+//quinta pagina comida tipica
+
+/*MQ de comida tipica peruana*/
+
+@media screen and (max-width: 600px){ 
+    .titulo-comida{
+        padding: 0.5rem;
+        @include t-a (center);
+    }
+    
+    //subtitulo
+    .h3-comida{
+        padding: 0.5rem;
+    }
+    //Columnas de recetario
+    .c-comida{
+        @include columna-celular(1fr, 1fr);
+        @include t-p(0.9rem);
+        padding: 1rem;
+    }
+    .mq-comida-tipica{
+        @include t-p(0.9rem);
+        padding: 1rem;
+    }
+}
+//Mq septima pagina tragos y bebidas
+
+/*Trago y bebidas*/
+
+@media screen and (max-width:600px){
+    //titulo
+.titulo-bebida{
+    padding: 1rem ;
+    @include t-a (center);
+}
+//subitulo
+.h3-bebidas{
+    padding: 1rem;
+}
+//columnas
+.c-bebidas{
+    @include columna-celular(1fr, 1fr);
+    @include t-p(0.9rem);
+}
+}
+
+

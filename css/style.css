@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 /*pagina principal/inicio*/
 .fondo-inicio div img {
@@ -183,7 +184,7 @@ footer {
   object-fit: cover; }
 
 /*septima pagina tragos y bebidas*/
-.tiulo-bebida {
+.titulo-bebida {
   padding: 1rem;
   text-align: center; }
 
@@ -215,4 +216,81 @@ footer {
     width: 120px;
     height: 120px;
     float: left;
-    margin: 1.1rem; } }
+    margin: 1.1rem; }
+  .p-tamaño {
+    font-size: 0.6rem; } }
+
+/* MQ de pagina galeria de platillos*/
+@media screen and (max-width: 600px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center; }
+  .p-grid {
+    padding: 0.5rem; }
+  .p-grids {
+    padding: 0.5rem; }
+  footer {
+    padding: 1rem; } }
+
+/* MQ de pagina Nosotros*/
+@media screen and (max-width: 600px) {
+  .p-nosotros {
+    font-size: 1rem;
+    padding: 0.5rem; }
+  .sub-nosotros {
+    font-size: 1.5rem; }
+  .h2-nosotros {
+    font-size: 1.8rem; }
+  .formulario2-comentario {
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center; }
+  .h3-comentarios {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.1rem; }
+  .h2-comentarios {
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5;
+    font-size: 1.5rem; } }
+
+/*MQ de postres y dulces*/
+@media screen and (max-width: 600px) {
+  .c-postre {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0.9rem; }
+  .conejos-mq {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0.9rem; } }
+
+/*MQ de comida tipica peruana*/
+@media screen and (max-width: 600px) {
+  .titulo-comida {
+    padding: 0.5rem;
+    text-align: center; }
+  .h3-comida {
+    padding: 0.5rem; }
+  .c-comida {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0.9rem;
+    padding: 1rem; }
+  .mq-comida-tipica {
+    font-size: 0.9rem;
+    padding: 1rem; } }
+
+/*Trago y bebidas*/
+@media screen and (max-width: 600px) {
+  .titulo-bebida {
+    padding: 1rem;
+    text-align: center; }
+  .h3-bebidas {
+    padding: 1rem; }
+  .c-bebidas {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0.9rem; } }

@@ -9,10 +9,7 @@
 
 //Imagen de inicio
 .fondo-inicio div img{  
-padding: 1rem;
-width: 100%;
-height: 100%;
-object-fit: cover;
+    @include responsive
 }
 
 //Tamaño de la letra de las opioniones
@@ -52,18 +49,18 @@ object-fit: cover;
 
 //Vertical opinion grid
 .V-1{
-    display: grid;
+    display: $g;
     grid-template-columns: 1fr 1fr;
 }
 .V-2{
-    display: grid;
+    display: $g;
     grid-template-columns: 1fr 1fr;
 }
 
 // pie de pagina
 
 footer{
-    text-align: center;
+    @include t-a(center);
 }
 
 //Segunda pagina galeria de platillos
@@ -91,7 +88,7 @@ footer{
 //grid imagenes
 
 .grid-galeria{
-    display: grid;
+    display: $g;
     @include c-f(1fr 1fr ,1fr);
     padding: 1rem;
     column-gap: 1rem;
@@ -118,9 +115,7 @@ footer{
 }
 // imagen de gaston 
 .img-nosotros{
-    padding: 1rem;
-    @include a-a(100%, 100%);
-    object-fit: cover
+    @include responsive
 }
 
 //Peru-Lima
@@ -133,7 +128,7 @@ footer{
 //frase 
 .p-nosotros{
     @include m-p(1rem, 0.3rem);   
-    text-align: center;
+    @include t-a(center);
     @include t-p(1.1rem);
 }
 
@@ -142,7 +137,7 @@ footer{
 //frase
 
 .h2-comentarios{
-    text-align: center;
+    @include t-a(center);
     @include m-p(0.5rem, 0.5);
     @include t-p(2.9);
 }
@@ -171,10 +166,86 @@ footer{
     margin-bottom: 1rem;
 }
 
-//tercera pagina 
+//Quinta
 
-/*Postres y dulces, tercera pagina */
+/*Postres y dulces, quinta pagina */
 
+//Titulo 
 
+.h2-postre{
+    @include t-a(center);
+    @include m-p( 1rem, 0.5rem)
+}
 
+//subtitulo
 
+.sub-postre{
+    margin: 1rem;
+}
+
+//imagen
+
+.img-picaron{
+    @include responsive
+}
+
+//arroz con leche
+
+.arroz-postre{
+@include m-p(0.5rem, 0.5rem)
+}
+
+//columnas de recetario
+.c-postre{
+    @include recetario
+}
+
+//mazamorra morada subtitulo
+
+.h3-postre{
+    padding: 1rem;
+}
+
+//Sexta pagina comida tipica
+
+/*Sexta pagina comida tipica*/
+
+//titulo
+.titulo-comida{
+    padding: 1rem;
+    @include t-a (center);
+}
+
+//subtitulo
+.h3-comida{
+    padding: 1rem;
+}
+//Columnas de recetario
+.c-comida{
+    @include recetario
+}
+//Imagen responsiva de comida tipica 
+.img-responsive{
+    @include responsive
+}
+
+//septima pagina
+
+/*septima pagina tragos y bebidas*/
+//titulo
+.tiulo-bebida{
+    padding: 1rem ;
+    @include t-a (center);
+}
+//subitulo
+.h3-bebidas{
+    padding: 1rem;
+}
+//imagenes bebidas
+.img-bebidas{
+    @include responsive
+}
+//columnas
+.c-bebidas{
+    @include recetario
+}

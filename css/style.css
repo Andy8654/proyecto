@@ -134,4 +134,70 @@ footer {
   align-items: center;
   margin-bottom: 1rem; }
 
-/*Postres y dulces, tercera pagina */
+/*Postres y dulces, quinta pagina */
+.h2-postre {
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem; }
+
+.sub-postre {
+  margin: 1rem; }
+
+.img-picaron {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.arroz-postre {
+  margin: 0.5rem;
+  padding: 0.5rem; }
+
+.c-postre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding: 1rem; }
+
+.h3-postre {
+  padding: 1rem; }
+
+/*Sexta pagina comida tipica*/
+.titulo-comida {
+  padding: 1rem;
+  text-align: center; }
+
+.h3-comida {
+  padding: 1rem; }
+
+.c-comida {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding: 1rem; }
+
+.img-responsive {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+/*septima pagina tragos y bebidas*/
+.tiulo-bebida {
+  padding: 1rem;
+  text-align: center; }
+
+.h3-bebidas {
+  padding: 1rem; }
+
+.img-bebidas {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.c-bebidas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding: 1rem; }

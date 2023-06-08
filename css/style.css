@@ -294,3 +294,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     font-size: 0.9rem; } }
+
+@media (max-width: 991.98px) {
+  footer {
+    padding: 1rem; } }

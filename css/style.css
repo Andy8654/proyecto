@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*reset*/
 * {
   margin: 0;
@@ -217,7 +216,7 @@ footer {
     height: 120px;
     float: left;
     margin: 1.1rem; }
-  .p-tamaño {
+  .p-tamano {
     font-size: 0.6rem; } }
 
 /* MQ de pagina galeria de platillos*/

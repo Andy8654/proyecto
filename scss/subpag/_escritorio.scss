@@ -13,7 +13,7 @@
 }
 
 //Tamaño de la letra de las opioniones
-.p-tamaño{
+.p-tamano{
     margin: 1rem;
 }
 
@@ -27,7 +27,7 @@
     margin: 1.1rem;
 } 
 //Tamaño de la letra de las opioniones
-.p-tamaño{
+.p-tamano{
     @include t-p(1.1rem);
 }
 //Colummnas opinion
